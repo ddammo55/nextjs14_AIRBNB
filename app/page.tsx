@@ -1,9 +1,10 @@
 import React from 'react';
+import MapFilterItems from '@/app/components/MapFilterItems'
 
 export default function Home() {
   return (
     <div>
-      <h1> Home</h1>
+      <MapFilterItems />
     </div>
   );
 }
